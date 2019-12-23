@@ -13,14 +13,8 @@
   }
 }
 
-.App-header {
+html {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -35,4 +29,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+td {
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+  transition: background-color 0.5s ease;
+  color: black;
+}
+
+[data-multiplier='0'] {
+  background-color: red;
+}
+[data-multiplier='1'] {
+  background-color: orange;
+}
+[data-multiplier='2'] {
+  background-color: yellow;
+}
+[data-multiplier='3'] {
+  background-color: green;
+}
+[data-multiplier='4'] {
+  background-color: blue;
+}
+[data-multiplier='5'] {
+  background-color: indigo;
+}
+[data-multiplier='6'] {
+  background-color: violet;
+}
+[data-multiplier='7'] {
+  background-color: black;
+}
+[data-multiplier='8'] {
+  background-color: white;
+}
+[data-multiplier='9'] {
+  background-color: brown;
 }
