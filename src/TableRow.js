@@ -4,7 +4,7 @@ import TableCell from './TableCell';
 export default function TableRow(props) {
   return (
     <tr>
-      {props.row.map((color, colIndex) => {
+      {props.row.map((cell, colIndex) => {
         return (
           <TableCell
             key={`${colIndex}${props.rowIndex}`}
