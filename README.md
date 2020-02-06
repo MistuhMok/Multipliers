@@ -16,3 +16,5 @@ color.
 
 • Each multiplier is marked with a separate color, and the multiples
 of each multiplier are highlighted with the specified color.
+
+The project is deployed at: https://multipliers.herokuapp.com/
